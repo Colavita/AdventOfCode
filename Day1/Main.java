@@ -31,8 +31,8 @@ public class Main {
             System.out.println("Part 2: " + getTotalCalories(ListOfElfs, 3) + " calories");
 
         } catch (FileNotFoundException e) {
-        System.out.println("An error occurred.");
-        e.printStackTrace();
+            System.out.println("An error occurred.");
+            e.printStackTrace();
         }
     }
 
